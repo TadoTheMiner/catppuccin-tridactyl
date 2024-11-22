@@ -28,7 +28,9 @@
     --tridactyl-highlight-box-fg: var(--fg);
     --tridactyl-of-fg: var(--fg);
     --tridactyl-of-bg: var(--currentline);
-    --tridactyl-cmdl-fg: var(--bg);
+    --tridactyl-cmdl-bg: var(--bg);
+    --tridactyl-cmdl-fg: var(--fg);
+    --tridactyl-cmdl-font-size: 22pt;
     --tridactyl-cmdl-font-family: var(--font);
     --tridactyl-cmplt-font-family: var(--font);
     --tridactyl-hintspan-font-family: var(--font);
