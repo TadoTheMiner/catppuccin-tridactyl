@@ -17,8 +17,9 @@
     --lavender: #c9cbff;
     --rosewater: #f5e0dc;
     --font: Ubuntu Mono;
-     --tridactyl-font-size: 22pt; 
-
+    * {
+        font-size: 22pt !important;
+    }
     /* vimium theme uses colors: flamingo, peach, rosewater, green, blue, lavender */
     --tridactyl-fg: var(--fg);
     --tridactyl-bg: var(--bg);
@@ -30,7 +31,6 @@
     --tridactyl-of-bg: var(--currentline);
     --tridactyl-cmdl-bg: var(--bg);
     --tridactyl-cmdl-fg: var(--fg);
-    --tridactyl-cmdl-font-size: 22pt;
     --tridactyl-cmdl-font-family: var(--font);
     --tridactyl-cmplt-font-family: var(--font);
     --tridactyl-hintspan-font-family: var(--font);
