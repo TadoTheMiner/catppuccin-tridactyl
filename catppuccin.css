@@ -12,12 +12,12 @@
     --yellow: #fae3b0;
     --green: #abe9b3;
     --teal: #b5e8e0;
-    --blue: #96cdfb;
+ :   --blue: #96cdfb;
     --sky: #89dceb;
     --lavender: #c9cbff;
     --rosewater: #f5e0dc;
     --font: Ubuntu Mono;
-    * {
+    #completions {
         font-size: 22pt !important;
     }
     /* vimium theme uses colors: flamingo, peach, rosewater, green, blue, lavender */
@@ -53,7 +53,7 @@
     background: var(--tridactyl-bg);
 }
 
-#tridactyl-inpu, #completions {
+#tridactyl-input, #completions {
     color: var(--tridactyl-fg);
     background: var(--tridactyl-bg);
 }
