@@ -12,14 +12,12 @@
     --yellow: #fae3b0;
     --green: #abe9b3;
     --teal: #b5e8e0;
- :   --blue: #96cdfb;
+    --blue: #96cdfb;
     --sky: #89dceb;
     --lavender: #c9cbff;
     --rosewater: #f5e0dc;
     --font: Ubuntu Mono;
-    #completions {
-        font-size: 22pt !important;
-    }
+    
     /* vimium theme uses colors: flamingo, peach, rosewater, green, blue, lavender */
     --tridactyl-fg: var(--fg);
     --tridactyl-bg: var(--bg);
@@ -34,7 +32,12 @@
     --tridactyl-cmdl-font-family: var(--font);
     --tridactyl-cmplt-font-family: var(--font);
     --tridactyl-hintspan-font-family: var(--font);
-
+    --tridactyl-font-family: Ubuntu Mono;
+    --tridactyl-font-family-sans: Ubuntu Mono;
+    --tridactyl-font-size: 22pt;
+    --tridactyl-small-font-size: 18pt;
+    --tridactyl-cmdl-font-size: 18pt;
+    --tridactyl-cmplt-font-size: 18pt;
     /* Hint character tags */
     --tridactyl-hintspan-fg: var(--bg) !important;
     --tridactyl-hintspan-bg: var(--green) !important;
@@ -45,6 +48,8 @@
     --tridactyl-hint-active-outline: none;
     --tridactyl-hint-bg: none;
     --tridactyl-hint-outline: none;
+
+    
 }
 
 #command-line-holder {
