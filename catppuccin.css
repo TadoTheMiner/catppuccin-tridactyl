@@ -35,9 +35,9 @@
     --tridactyl-font-family: var(--font);
     --tridactyl-font-family-sans: var(--font);
     --tridactyl-font-size: 22px;
-    --tridactyl-small-font-size: 18px;
-    --tridactyl-cmdl-font-size: 18px;
-    --tridactyl-cmplt-font-size: 18px;
+    --tridactyl-small-font-size: 22px;
+    --tridactyl-cmdl-font-size: 22px;
+    --tridactyl-cmplt-font-size: 22px;
     /* Hint character tags */
     --tridactyl-hintspan-fg: var(--bg) !important;
     --tridactyl-hintspan-bg: var(--green) !important;
@@ -52,7 +52,7 @@
     
 }
 
-#completions table {
+#command-line-holder, #completions table {
     font-size: var(--tridactyl-font-size)
 }
 
