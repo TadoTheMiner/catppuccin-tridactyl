@@ -16,7 +16,7 @@
     --sky: #89dceb;
     --lavender: #c9cbff;
     --rosewater: #f5e0dc;
-    --font: Ubuntu Mono;
+    --font: JetBrains Mono;
     
     /* vimium theme uses colors: flamingo, peach, rosewater, green, blue, lavender */
     --tridactyl-fg: var(--fg);
@@ -32,8 +32,8 @@
     --tridactyl-cmdl-font-family: var(--font);
     --tridactyl-cmplt-font-family: var(--font);
     --tridactyl-hintspan-font-family: var(--font);
-    --tridactyl-font-family: Ubuntu Mono;
-    --tridactyl-font-family-sans: Ubuntu Mono;
+    --tridactyl-font-family: var(--font);
+    --tridactyl-font-family-sans: var(--font);
     --tridactyl-font-size: 22px;
     --tridactyl-small-font-size: 18px;
     --tridactyl-cmdl-font-size: 18px;
@@ -43,18 +43,22 @@
     --tridactyl-hintspan-bg: var(--green) !important;
 
     /* Element Highlights */
-    --tridactyl-hint-active-fg: none;
-    --tridactyl-hint-active-bg: none;
-    --tridactyl-hint-active-outline: none;
+    --tridactyl-hint-active-fg: var(--crust);
+    --tridactyl-hint-active-bg: var(--mauve);
+    --tridactyl-hint-active-outline: var(--mauve);
     --tridactyl-hint-bg: none;
     --tridactyl-hint-outline: none;
 
     
 }
 
+#completions table {
+    font-size: var(--tridactyl-font-size)
+}
+
 #command-line-holder {
     order: 1;
-    border: 2px solid var(--lavender);
+    border: 2px solid var(--mauve);
     background: var(--tridactyl-bg);
 }
 
@@ -64,19 +68,19 @@
 }
 
 #completions table tr .title, #completions table tr td.excmd {
-    color: var(--lavender);
+    color: var(--mauve);
 }
 
 #completions .sectionHeader {
     background: unset;
-    color: var(--peach);
+    color: var(--mauve);
 }
 
 
 .TridactylStatusIndicator {
     background: var(--tridactyl-bg) !important;
     border: unset !important;
-    border: 1px var(--purple) solid !important;
+    border: 1px var(--mauve) solid !important;
 }
 
 #completions .focused {
